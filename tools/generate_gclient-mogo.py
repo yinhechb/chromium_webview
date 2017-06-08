@@ -133,7 +133,7 @@ class GClientFileGenerator(object):
     self._AddIgnorePathFromEnv()
     solution = {
       'name': 'src',
-      'url': 'svn://svn.chromium.org/chrome/branches/%s/src' % self._chromium_branch,
+      'url': 'http://svn.chromium.org/chrome/branches/%s/src' % self._chromium_branch,
       'custom_deps': self._deps,
     }
     if self._vars:
