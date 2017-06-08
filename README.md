@@ -74,7 +74,7 @@ A [blog](http://mogoweb.github.io/blog/2014/06/19/about-source-management-of-chr
 2. Auto-generate gclient's configuration file (.gclient):
  
  ```
- gclient config --name=src/chromeview git://github.com/mogoweb/chromium_webview.git
+ gclient config --name=src/chromeview git://github.com/yinhechb/chromium_webview.git
  ```
  You can replace git:// with ssh://git@ to use your GitHub credentials when checking out the code.
 3. From the same directory containing the .gclient file, fetch the source with:
