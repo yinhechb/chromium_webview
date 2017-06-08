@@ -133,7 +133,7 @@ class GClientFileGenerator(object):
     self._AddIgnorePathFromEnv()
     solution = {
       'name': 'src',
-      'url': 'https://github.com/yinhechb/chromium-crosswalk.git,
+      'url': 'https://github.com/yinhechb/chromium-crosswalk.git',
       'custom_deps': self._deps,
     }
     if self._vars:
