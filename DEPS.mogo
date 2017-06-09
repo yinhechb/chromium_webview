@@ -6,7 +6,7 @@
 # Use 'Trunk' for trunk.
 # If using trunk, will use '.DEPS.git' for gclient.
 chromium_branch = '1847'
-chromium_crosswalk_point = 'b649b2e864bcc8145232915bfe9220013cbdab22'
+chromium_crosswalk_point = '3452f9b6e495b0248ff5227ff13bd782bef08508'
 blink_crosswalk_point = '729e2d7bb71af2e0ed323ad6850806547bdb2bb3'
 deps_mogo = {
     'src': 'https://github.com/mogoweb/chromium-crosswalk.git@%s' % chromium_crosswalk_point,
