@@ -7,7 +7,7 @@
 # If using trunk, will use '.DEPS.git' for gclient.
 chromium_branch = '1847'
 #chromium_crosswalk_point = '8fcd11b712d73ff5332d9e397cb430ce7ba21d21'
-chromium_crosswalk_point = '9cc2d0c0e5a4445867b12df77b65c122f2f89a2d'
+chromium_crosswalk_point = '49bf36bb42bea0ea5d7772fdb13caa18ea57a59c'
 
 blink_crosswalk_point = '729e2d7bb71af2e0ed323ad6850806547bdb2bb3'
 deps_mogo = {
