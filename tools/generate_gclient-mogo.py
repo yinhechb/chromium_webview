@@ -84,7 +84,6 @@ class GClientFileGenerator(object):
                  'src/third_party/cros_system_api',
                  'src/third_party/hunspell_dictionaries',
                  'src/third_party/pyelftools',
-                 'src/native_client',
                  'src/chrome/test/data/perf/third_party/octane',
                  'src/media/cdm/ppapi/api',
                  'src/chrome/tools/test/reference_build/chrome_linux',
