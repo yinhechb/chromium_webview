@@ -102,7 +102,6 @@ class GClientFileGenerator(object):
                  'src/third_party/jsoncpp/source/src/lib_json',
                  'src/third_party/jsoncpp/source/include',
                  'src/third_party/libexif/sources',
-                 'src/third_party/libmtp',
                  'src/third_party/mtpd/source',
                  'src/third_party/pyelftools',
                  'src/third_party/pyftpdlib/src',
