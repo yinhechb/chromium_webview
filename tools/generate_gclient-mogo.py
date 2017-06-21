@@ -118,7 +118,7 @@ class GClientFileGenerator(object):
                  'src/third_party/scons-2.0.1',
                  'src/third_party/WebKit/LayoutTests/w3c/web-platform-tests',
                  'src/third_party/WebKit/LayoutTests/w3c/csswg-test',
-                 'src/third_party/libaddressinput/src/',
+                 'src/third_party/libaddressinput/src',
                 ]
     else:
       ignores_str = ignores_str.replace(':', ';')
