@@ -112,7 +112,6 @@ class GClientFileGenerator(object):
                  'src/third_party/webpagereplay',
                  'src/third_party/webgl_conformance',
                  'src/third_party/webdriver/pylib',
-                 'src/third_party/speex',
                  'src/third_party/safe_browsing/testing',
                  'src/tools/page_cycler/acid3',
                  'src/third_party/yasm/source/patched-yasm',
@@ -132,6 +131,7 @@ class GClientFileGenerator(object):
     solution = {
       'name': 'src',
       'url': 'https://github.com/yinhechb/chromium-crosswalk.git',
+      "deps_file": ".DEPS.git",
       'custom_deps': self._deps,
     }
     if self._vars:
