@@ -106,7 +106,6 @@ class GClientFileGenerator(object):
                  'src/third_party/pyelftools',
                  'src/third_party/pyftpdlib/src',
                  'src/third_party/pywebsocket/src',
-                 'src/third_party/undoview',
                  'src/third_party/swig/linux',
                  'src/third_party/swig/Lib',
                  'src/third_party/webpagereplay',
@@ -118,7 +117,8 @@ class GClientFileGenerator(object):
                  'src/third_party/xdg-utils',
                  'src/third_party/scons-2.0.1',
                  'src/third_party/WebKit/LayoutTests/w3c/web-platform-tests',
-                 'src/third_party/WebKit/LayoutTests/w3c/csswg-test'
+                 'src/third_party/WebKit/LayoutTests/w3c/csswg-test',
+                 'src/third_party/libaddressinput/src/'
                 ]
     else:
       ignores_str = ignores_str.replace(':', ';')
